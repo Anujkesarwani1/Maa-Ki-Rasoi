@@ -1,0 +1,128 @@
+body {
+    /* background: url('../img/contact.jpg') no-repeat center center/cover; */
+    background-color: #e6e6e6;
+}
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Navigation section */
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 17px;
+    padding: 0px 10px;
+    padding-bottom: 8px;
+} 
+/* Home Section */
+#home{
+    height: 267px;
+    padding: 5px 68px;
+}
+#home::before{
+    height: 400px;
+}
+#home h1{
+    font-size: 23px;
+}
+#home p{
+    font-size: 15px;
+}
+
+.container {
+   margin: auto;
+        width: 60%;
+        border: 5px solid #FFFF00;
+        padding: 10px;
+}
+p{
+    text-align: center;
+}
+.container h1{
+    text-align: center;
+    font-family: 'Hammersmith One', sans-serif;
+    color: rgb(68, 67, 67);
+}
+.name{
+    font-family: 'Work Sans', sans-serif;
+    width: 90%;
+    position: relative;
+    display: inline-grid;
+    border: 1px solid #e6e6e6;
+    border-radius: 13px;
+    padding: 10px 30px 9px 22px;
+    margin-bottom: 20px;
+    background-color: #e6e6e6;
+}
+.phn{
+    font-family: 'Work Sans', sans-serif;
+    width: 90%;
+    position: relative;
+    display: inline-grid;
+    border: 1px solid #e6e6e6;
+    border-radius: 13px;
+    padding: 10px 30px 9px 22px;
+    margin-bottom: 20px;
+    background-color: #e6e6e6;
+}
+.email{
+    font-family: 'Work Sans', sans-serif;
+    width: 90%;
+    position: relative;
+    display: inline-grid;
+    border: 1px solid #e6e6e6;
+    border-radius: 13px;
+    padding: 10px 30px 9px 22px;
+    margin-bottom: 20px;
+    background-color: #e6e6e6;
+}
+.msg{
+    font-family: 'Work Sans', sans-serif;
+    width: 90%;
+    position: relative;
+    display: inline-grid;
+    border: 1px solid #e6e6e6;
+    border-radius: 13px;
+    padding: 10px 30px 9px 22px;
+    margin-bottom: 20px;
+    background-color: #e6e6e6;
+}
+.form .input{
+    display: block;
+    width: 100%;
+    background: 0 0;
+    font-size: 15px;
+    color: #555;
+    line-height: 1.9;
+    padding-right: 15px;
+    border: darkgray;
+}
+/* Utility Classes */
+
+.btn{
+    font-family: 'Work Sans', sans-serif;
+    padding: 5px 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+    color: white;
+    background-color: #333;
+    width: 96%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover{
+    background-color: #00ad5f;
+    color: white;
+    transition: all 0.5s ease-in-out;
+}
+span{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 10px;
+}
+.ul{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+}

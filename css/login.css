@@ -1,0 +1,133 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all .2s linear;
+}
+  
+html {
+  font-size: 52.5%;
+  scroll-behavior: smooth;
+}
+/* header section start */
+#header {
+  font-family: 'Oswald', sans-serif;
+  width: 100%;
+  height: 5rem;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  z-index: 1000;
+  background: #202020;
+}
+
+#header .fa-hamburger {
+  font-size: 4rem;
+  z-index: 10000;
+  color: #FFF200;
+  cursor: pointer;
+  display: none;
+}
+#header .fa-hamburger img {
+  width: 35px;
+  height: 35px;
+}
+
+#header .logo img {
+  height: 4rem;
+  filter: invert(100%);
+}
+
+#header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+
+#header nav ul li {
+  margin-right: 4rem;
+}
+
+#header nav ul li a {
+  /* color: #fff; */
+  color: #a29d9d;
+  font-size: 2rem;
+}
+
+#header nav ul li a:hover {
+  /* color: #FFF200; */
+  color: white;
+  text-decoration: none;
+}
+
+.header-active {
+  background: #333;
+  height: 6rem;
+  box-shadow: .2rem 0 .5rem #000;
+}
+
+.header-active nav ul {
+  margin: 0;
+}
+
+/* header section ends */
+
+/* Login section starts */
+
+/* .content {
+  padding: 90px;
+  background: url('../images/background4.jpg') no-repeat center center/cover;
+} */
+.content .image {
+  filter: drop-shadow(2px 4px 6px black);
+}
+.content .image img{
+  width: 35rem;
+  height: 45rem;
+  /* padding: 30px; */
+}
+.content .container {
+  filter: drop-shadow(2px 4px 6px black);
+  background: #fff;
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1);
+}
+.content .container p{
+  color: #b3b3b3;
+  font-weight: 300;
+}
+.content .container #username {
+  margin-bottom: 10px;
+  margin-top: 25px;
+}
+.content .container #forget {
+  display: flex;
+}
+.content .container #forgetpassword {
+  margin-left: 70rem;
+}
+
+.content .container #btn{
+  padding: 5px 20px;
+  border: 2px solid white;
+  border-radius: 25px;
+  color: white;
+  background-color: #333;
+  width: 100%;
+  height: 37px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.content .container #btn:hover{
+  background-color: #00ad5f;
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+/* Login section ends */
